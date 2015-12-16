@@ -1,4 +1,4 @@
-{Run the code}(tests/prewrapoutput.sh node content/1-intro/example2-func.js)
+{Run the code}(content/vol_cylinder/VolCylinder.sh)
 
 On the left is a simple example that shows a function `volumeCylinder()` that has 2 arguments.
 

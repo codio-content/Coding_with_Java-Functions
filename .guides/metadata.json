@@ -26,7 +26,7 @@
      "action": "close"
     },
     {
-     "path": "challenges/experiment.js",
+     "path": "challenges/Experiment.java",
      "panel": 0,
      "action": "open"
     }
@@ -67,7 +67,7 @@
      "action": "close"
     },
     {
-     "path": "content/1-intro/example2-func.js",
+     "path": "content/vol_cylinder/VolCylinder.java",
      "panel": 0,
      "action": "open"
     }
@@ -87,6 +87,17 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/A-function-in-detail-3939.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "bab08807-905e-e1d0-f17-40249033264",
+   "title": "return statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/return-statement-bab0.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -161,7 +172,7 @@
      "action": "close"
     },
     {
-     "path": "challenges/random-integer.js",
+     "path": "challenges/random_int/Challenge.java",
      "panel": 0,
      "action": "open"
     }
@@ -183,7 +194,7 @@
      "action": "close"
     },
     {
-     "path": "challenges/red.js",
+     "path": "challenges/hunt_red/Challenge.java",
      "panel": 0,
      "action": "open"
     }

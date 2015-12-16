@@ -1,26 +1,42 @@
 If we now look at the function `volumeCylinder()`, we'll explain how it is constructed.
 
-{Run the code}(node content/1-intro/example2-func.js)
+{Run the code}(content/vol_cylinder/VolCylinder.sh)
 
-```javascript
-function volumeCylinder( radius, height ) {
-  var v = Math.PI * radius * radius * height
-  return v
+```java
+public static double volumeCylinder(double radius, double height) {
+  double v = Math.PI * radius * radius * height;
+  return v;
 }
 ```
 
 This could also be written like this
 
-```javascript
-function volumeCylinder( radius, height ) {
-  return Math.PI * radius * radius * height
+```java
+public static double volumeCylinder(double radius, double height) {
+  return Math.PI * radius * radius * height;
 }
 ```
 
-## Function name
-We name a function with the same rules that apply to a variable. In this case we're calling our function `volumeCylinder()`.
+The parts of the Java method or function above are: 
 
-## Code block
+- `public static` : modifier.
+- `double`: return type
+- `volumeCylinder`: name of the method
+- `double radius, double height`: list of parameter names and types
+
+## Modifier
+It defines the access type of the method and it is optional to use.
+
+## Return type
+Method may return a value.
+
+## Method name
+This is the method name. The method signature consists of the method name and the parameter list. We name a method with the same rules that apply to a variable. In this case we're calling our method `volumeCylinder()`.
+
+## Parameter List
+The list of parameters, it is the type, order, and number of parameters of a method. These are optional, method may contain zero parameters.
+
+## Method body or function block
 Rather like an `if` statement or a `for` loop, the function gets its own code block. It starts with a `{` and is followed ny as many lines of code as you want. At the end of the code block is a closing `}`.
 
 ## Arguments
@@ -30,23 +46,12 @@ You can think of an argument as a variable. In our example, the arguments are `r
 
 The main thing to note here is that the calling function takes a *parameter* that maps to this argument. So, if you look at the function call ...
 
-```javascript
-vol = volumeCylinder(10, 30)
+```java
+volumeCylinder( 10, 20 );
 ```
 
-- `10` is the 1st parameter and is passed to the `radius` argument of the function
-- `30` is the 2nd parameter and is passed to the `height` argument.
+- `10` is the 1st parameter with type `double` and is passed to the `radius` argument of the function
+- `30` is the 2nd parameter with type `double` and is passed to the `height` argument.
 
-## return
-Here is a summary of the use of the `return` statement within a function.
-
-- All functions return control back to the line of code that called them whether you include an return statement or not.
-- If you don't include an explicit `return` statement in your function, then it will return when execution reaches the end of the code block.
-- A `return` statement without an expression after it will simply return to the calling code.
-- A `return` statement with an expression after it will return that value back to the line of code that called it. In the above example, that value is then assigned to `vol`.
-
-
-
-
-
-
+---
+Learn about the `return` statement in the next section
