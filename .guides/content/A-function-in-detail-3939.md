@@ -37,7 +37,7 @@ This is the method name. The method signature consists of the method name and th
 The list of parameters, it is the type, order, and number of parameters of a method. These are optional, method may contain zero parameters.
 
 ## Method body or function block
-Rather like an `if` statement or a `for` loop, the function gets its own code block. It starts with a `{` and is followed ny as many lines of code as you want. At the end of the code block is a closing `}`.
+Rather like an `if` statement or a `for` loop, the function gets its own code block. It starts with a `{` and is followed by as many lines of code as you want. At the end of the code block is a closing `}`.
 
 ## Arguments
 After the function name come any *arguments* that the function receives. Some functions do not take any arguemnts.

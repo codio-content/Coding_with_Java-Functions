@@ -11,4 +11,4 @@ public static double volCylinder(double radius, double height) {
 System.out.println(volumeCylinder( 10, 20 ));
 ```
 
-Just output your function call yourself `System.out.println(volumeCylinder( 10, 20 ));` does above.
+Just output your function call yourself as `System.out.println(volumeCylinder( 10, 20 ));` does above.
