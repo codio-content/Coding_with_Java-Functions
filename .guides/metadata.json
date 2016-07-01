@@ -111,7 +111,7 @@
      "action": "close"
     },
     {
-     "path": "content/1-intro/example-no-func.js",
+     "path": "content/bad_code/BadCode.java",
      "panel": 0,
      "action": "open"
     }
@@ -133,7 +133,7 @@
      "action": "close"
     },
     {
-     "path": "content/1-intro/example-func.js",
+     "path": "content/good_code/GoodCode.java",
      "panel": 0,
      "action": "open"
     }
